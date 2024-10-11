@@ -1,9 +1,23 @@
-Revit version: Revit 2024
-Cloud storage: Google Drive
-Installer: WiX
+## Revit Plugin - Cloud Storage Integration
+# Overview
+This plugin integrates cloud storage functionality into Revit 2024, allowing users to upload, download, and manage files on Google Drive directly from within Revit.
 
-Key Functionalities:
-•	Display Content of Cloud Storage: Fetches and displays the list of files stored in the cloud. The files are shown as selectable items, allowing users to interact with them for further actions such as downloading or deleting.
-•	Uploading Files: Allows users to select Revit files from their local system and upload them to the cloud.
-•	Downloading Files: Lets users select cloud files and download them to a local folder.
-•	Deleting Files: Enables the deletion of selected cloud files.
+# Requirements
+* **Revit Version:** Revit 2024
+* **Cloud Storage:** Google Drive
+* **Installer:** WiX Toolset
+# Key Functionalities
+* **Display Content of Cloud Storage:**
+Fetch and display the list of files stored in the cloud. Users can select files from the displayed list for further actions such as downloading or deleting.
+
+* **Uploading Files:**
+Users can select Revit files from their local system and upload them to Google Drive.
+
+* **Downloading Files:**
+Select files from the cloud storage and download them to a specified local folder.
+
+* **Deleting Files:**
+Delete selected files from Google Drive directly from the plugin.
+
+# Installation
+To install the plugin, run the provided installer built using WiX Toolset. Follow the on-screen instructions to complete the setup.
