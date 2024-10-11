@@ -1,0 +1,15 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <StandardDirectory Id="CommonAppDataFolder">
+      <Directory Name="Autodesk">
+        <Directory Name="ApplicationPlugins">
+          <Directory Name="RDStudio.bundle" Id="APPLICATION_ROOT" >
+            <Directory Name="Contents">
+              <Directory Name="2024" Id="APPLICATION_REVIT_2024" />
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+  </Fragment>
+</Wix>

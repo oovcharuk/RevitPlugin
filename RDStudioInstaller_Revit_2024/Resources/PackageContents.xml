@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+	SchemaVersion="1.0"
+	AutodeskProduct="Revit" 
+	Name="RDStudioPlugin" 
+	Description="RD Studio Plugin." 
+	AppVersion="1.0" 
+	FriendlyVersion="v1.0" 
+	ProductType="Application" 
+	SupportedLocales="Enu"
+	AppNameSpace="appstore.exchange.autodesk.com" 
+	Author="RDStudio"
+	ProductCode="{C7ECE29D-0597-4849-9326-FF8A8B0E49AA}" 
+	UpgradeCode="{C7ECE29D-0597-4849-9326-FF8A8B0E49AA}">
+	<Components Description="Revit 2024">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2024" SeriesMax="R2024" />
+		<ComponentEntry AppName="RD Studio Plugin" Version="1.0.0" ModuleName="./Contents/2024/RDStudioPlugin.addin" AppDescription="RD Studio Plugin" />
+	</Components>
+</ApplicationPackage>

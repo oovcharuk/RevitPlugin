@@ -1,0 +1,20 @@
+﻿<Wix 
+  xmlns="http://wixtoolset.org/schemas/v4/wxs"
+  xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  
+  <Package Name="RDStudioInstaller_Revit_2024" Manufacturer="RD Studio" Version="1.0.0.0" UpgradeCode="ad86a4ce-8cb4-4d50-948c-a97e4d2a1f92" ProductCode="ad86a4ce-8cb4-4d50-948c-a97e4d2a1f92">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <MediaTemplate EmbedCab="yes" />
+    
+    <Feature Id="Main">
+      <ComponentGroupRef Id="AppComponents" />
+      <ComponentGroupRef Id="Revit2024Components" />
+    </Feature>
+    
+    <WixVariable Id="WixUILicenseRtf" Value="Resources/EULA.rtf" />
+    
+    <ui:WixUI Id="WixUI_Minimal" />
+  </Package>
+  
+</Wix>

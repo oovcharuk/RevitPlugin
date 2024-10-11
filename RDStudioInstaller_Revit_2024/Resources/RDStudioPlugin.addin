@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <AddInId>4B95A776-7E9D-4D1C-98C7-E68BAEBCC3FD</AddInId>
+    <Name>RD Studio Plugin</Name>
+    <Description>The RD Studio Plugin</Description>
+    <Assembly>RevitPlugin.dll</Assembly>
+    <FullClassName>RevitPlugin.Plugin</FullClassName>
+    <VendorId>RDStudio</VendorId>
+    <VendorDescription>RD Studio</VendorDescription>
+  </AddIn>
+</RevitAddIns>

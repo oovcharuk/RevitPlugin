@@ -1,0 +1,42 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="AppComponents" Directory="APPLICATION_ROOT">
+      <Component>
+        <File Source="Resources/EULA.rtf" />
+      </Component>
+      <Component>
+        <File Source="Resources/PackageContents.xml" />
+      </Component>
+    </ComponentGroup>
+    <ComponentGroup Id="Revit2024Components" Directory="APPLICATION_REVIT_2024" Source="!(bindpath.RevitPlugin)">
+      <Component>
+        <File Source="Resources/RDStudioPlugin.addin" />
+      </Component>
+      
+      <Component>
+        <File Source="Google.Apis.Auth.dll" />
+      </Component>
+      <Component>
+        <File Source="Google.Apis.Core.dll" />
+      </Component>
+
+      <Component>
+        <File Source="Google.Apis.dll" />
+      </Component>
+      <Component>
+        <File Source="Google.Apis.Drive.v3.dll" />
+      </Component>
+
+      <Component>
+        <File Source="RevitPlugin.dll" />
+      </Component>
+
+      <Component>
+        <File Source="Newtonsoft.Json.dll" />
+      </Component>
+      <Component>
+        <File Source="System.CodeDom.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
